@@ -1,0 +1,17 @@
+:root{
+    --main-color: rgb(255, 114, 76);
+}
+.bg-main-color {
+    background-color: var(--main-color);
+}
+.main-color {
+    color: var(--main-color);
+}
+
+.navbar .navbar-nav a:hover{
+    color: var(--main-color);
+}
+.navbar .navbar-nav .nav-link.active{
+    color: var(--main-color);
+}
+
